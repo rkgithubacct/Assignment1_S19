@@ -7,7 +7,7 @@ namespace Assignment1_S19
     {
         static void Main(string[] args)
         {
-            Console.SetWindowSize(120, 60);
+            Console.SetWindowSize(120, 60); // Sets Console Size that accommodates output of this assignment
             
 
             int x, y;
@@ -16,7 +16,7 @@ namespace Assignment1_S19
 
             x = 5;
             y = 25;
-            Console.WriteLine("\nPrint Prime Numbers From " + x + " To " + y);
+            Console.WriteLine("\n" + "Print Prime Numbers From " + x + " To " + y);
             printPrimeNumbers(x, y); /* calling printPrimeNumbers where starting range x is 5 and ending rante value of y is 25 */
 
             // This is used to to check FindFactorial of each number provided in the assignment i.e. 2, 3 and 4 
@@ -35,7 +35,7 @@ namespace Assignment1_S19
             drawTriangle(x, y); /* Draw a Triangle of odd numbers starting 1*/
             Console.WriteLine();
 
-            Console.WriteLine("\nPrint Frequency of a number in Array" + "\n" + "\n" + "Number" + "\t" + "Frequency");
+            Console.WriteLine("\n" + "Print Frequency of a number in Array" + "\n" + "\n" + "Number" + "\t" + "Frequency");
             
             for (int i = 1; i <= 3; i++)
             {
